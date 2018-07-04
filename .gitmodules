@@ -1,0 +1,9 @@
+[submodule "MOLi-TelegramBot"]
+	path = MOLi-TelegramBot
+	url = https://github.com/MOLi-rocks/MOLi-TelegramBot.git
+[submodule "laradock"]
+	path = laradock
+	url = git@github.com:laradock/laradock.git
+[submodule "MOLi-rocks.github.io"]
+	path = MOLi-rocks.github.io
+	url = git@github.com:MOLi-rocks/MOLi-rocks.github.io.git
