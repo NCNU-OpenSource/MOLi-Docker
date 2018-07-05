@@ -59,8 +59,8 @@ MOLi Service in Docker
 ## 成員
 
 - [JackKuo-tw](https://github.com/JackKuo-tw) --- 此專案、協助另外兩位組員的專案
-- [IishaWu <3](https://github.com/IishaWu)  --- MOLi CTF Docker 化，因有題目與 Key，該 repo 不公開
-- [s104321072](https://github.com/s104321072) --- MOLi 數人頭
+- [IishaWu <3](https://github.com/IishaWu)  --- MOLi 數人頭
+- [s104321072](https://github.com/s104321072) --- MOLi CTF Docker 化，因有題目與 Key，該 repo 不公開
 
 ## 使用裝置
 
