@@ -18,7 +18,7 @@ MOLi Service in Docker
 
 進到 laradock/ 資料夾
 
-- `cp env-example .env` 複製設定檔，可自行調整相關設定
+- `cp env-example .env` 複製設定檔，需自行調整相關設定，尤其是 port
 - `docker-compose up -d nginx mysql phpmyadmin` 運行 Docker
 
 若是第一次啟動，會需要 pull 一些映像檔與製作，需要點時間。
@@ -28,6 +28,8 @@ MOLi Service in Docker
 使用下面指令進到控制台
 
 `docker-compose exec workshop bash`
+
+**下面兩點部署可以使用自動化腳本執行：`sh automator.sh`**
 
 #### 部署 Laravel 環境
 
@@ -45,7 +47,9 @@ MOLi Service in Docker
 
 #### 設定本機 hosts 檔案
 
-最底下加入
+編輯 hosts 檔案，在最底下加入
+
+P.S. Ubuntu/Mac 是在 `/etc/hosts`
 
 - 127.0.0.1    moli.telegrambot.test
 - 127.0.0.1    moli.rocks.test
@@ -59,12 +63,12 @@ MOLi Service in Docker
 ## 成員
 
 - [JackKuo-tw](https://github.com/JackKuo-tw) --- 此專案、協助另外兩位組員的專案
-- [IishaWu <3](https://github.com/IishaWu)  --- MOLi 數人頭
+- [IishaWu <3](https://github.com/IishaWu)  --- [MOLi 數人頭](https://github.com/NCNU-OpenSource/Head-Counter)
 - [s104321072](https://github.com/s104321072) --- MOLi CTF Docker 化，因有題目與 Key，該 repo 不公開
 
 ## 使用裝置
 
-能運行 Docker 的機器
+能運行 Docker 的機器，因 Docker 使用 Linux Kernel，所以在非 Linux 環境都是使用虛擬機
 
 ## 實作所需材料
 
