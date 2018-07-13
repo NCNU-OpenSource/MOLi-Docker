@@ -12,7 +12,7 @@ MOLi Service in Docker
 
  `git clone --recurse-submodules -j8 git@github.com:NCNU-OpenSource/MOLi-Docker.git`
 
- 因為這些 submodule 並沒有用 fork 的形式，因此必須手動去調整設定。將 tools 資料夾內三個個 .conf 檔案複製到 laradock/nginx/sites/ 底下。
+ 因為這些 submodule 並沒有用 fork 的形式，因此必須手動去調整設定。下面會提到怎麼將 tools 資料夾內三個 .conf 檔案複製到 laradock/nginx/sites/ 底下。
 
 ### 運行
 
@@ -64,7 +64,7 @@ MOLi Service in Docker
 
 ## 使用裝置
 
-能運行 Docker 的機器
+能運行 Docker 的機器，Linux 佳，Windows 也行但容易有問題，真的不知道為甚麼跑不起來可以直接詢問我。
 
 ## 實作所需材料
 
